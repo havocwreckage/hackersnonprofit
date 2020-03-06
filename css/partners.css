@@ -33,7 +33,8 @@
 .mensShelter-content{
     height: 100%;
     overflow: hidden;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
+    margin-top: 20px;
 }
 
 .urbanMinistry-img{
@@ -41,12 +42,13 @@
     height: 200px;
     float: left;
     width: 25%;
+    margin: 25px;
 }
 
 .urbanMinistry-content{
     height: 100%;
     overflow: hidden;
-    padding: 50px;
+    margin: 40px;
 }
 
 .clr {
