@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Apply.css">
     <title>Apply</title>
 </head>
+
 <body>
-    
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Apply</span></h1>
+            <p>Please fill out the form</p>
+            <form action="destination.php">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <form action="destination.php">
+                    <div class="form-group">
+                        <select>
+                            <label for="Adrdess">Address</label>
+                            <option value="address1">123mainst</option>
+                            <option value="address2">123mainst</option>
+                            <option value="address3">123mainst</option>
+                        </select>
+                    </div>
+                </form>
+                <form action="destination.php">
+                    <div class="form-group">
+                        <label for="emial">Job Interests:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <form action="destination.php">
+                        <div class="form-group">
+                            <label for="message">Past Experience(s):</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+        </div>
+    </section>
+
+    </form>
+    </main>
 </body>
+
 </html>
