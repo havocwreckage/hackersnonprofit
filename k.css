@@ -81,7 +81,8 @@ a {
 #navbar ul{
     list-style: none;
     float: right;
-    padding-right: 275px;
+    padding-right: 225px;
+    font-size: 1.3rem;
 }
 
 #navbar ul li {
@@ -100,10 +101,6 @@ a {
     background: rgb(0, 156, 199);
     color: #fff;
     border-radius: 1.3em;
-}
-
-.nd {
-    float: right;
 }
 
 /* showcase */
