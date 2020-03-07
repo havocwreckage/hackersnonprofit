@@ -25,3 +25,6 @@
     outline: none;
     border-color: pink;
 }
+select{
+    font-size: large;
+}
