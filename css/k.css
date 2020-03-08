@@ -34,20 +34,17 @@
     border-radius: 1.3em;
 }
 
-.btn-light {
-    background: #333;
-    color: #fff;
-}
+
 
 .bg-dark {
     background: #333;
     color: #fff;
 }
 
-.bg-primary {
+/* .bg-primary {
     background: #fff;
     color: #333;
-}
+} */
 
 .clr {
     clear: both;
@@ -81,8 +78,7 @@ a {
 #navbar ul{
     list-style: none;
     float: right;
-    padding-right: 225px;
-    font-size: 1.3rem;
+    padding-right: 275px;
 }
 
 #navbar ul li {
@@ -103,9 +99,13 @@ a {
     border-radius: 1.3em;
 }
 
+.nd {
+    float: right;
+}
+
 /* showcase */
 #showcase {
-    background: url(../img/BRALOGO17_upscaled_image_x2.jpg) no-repeat center center/cover;
+    background: url('../img/BRALOGO17_upscaled_image_x2.jpg') no-repeat center center/cover;
     height: 600px;
     width: 100%;
     float: left;
@@ -134,39 +134,51 @@ a {
 #home-info {
     height: 400px;
 }
-
-#home-info .info-img {
-    float: right;
-    width: 50%;
-    background: url('https://images.unsplash.com/photo-1522847560429-ad7381e61f96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80') no-repeat;
-    min-height: 100%;
+#features{
+    display: flex;
+}
+.alan1{
+    padding: 5px;
+}
+.alan2 {
+    padding: 20px;
 }
 
-#home-info .info-content {
-    float: left;
-    width: 50%;
-    height: 100%;
-    padding: 50px;
-    overflow: hidden;
+.text {
+    font-size: 25px;
+    color: #fff;
+    float: right;
+}
+
+.text2 {
+    z-index: 2;
+    padding-bottom: 20px;
 }
 
 #home-info .info-content p {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 /* features  */
 
-#features{
-    display: flex;
 
+
+.apply-button {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.2em;
+    letter-spacing: .1em;
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 325px;
+.apply-button:hover {
+    background: rgb(0, 156, 199);
+    color: #333;
+    border-radius: 1.2em;
 }
 
 /* footer */
@@ -176,4 +188,5 @@ a {
     background: #444;
     color: #fff;
     padding: 20px;
+    
 }
