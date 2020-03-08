@@ -1,17 +1,22 @@
 .partners-content{
     padding: 20px;
 }
+.charlotteFamily-content a{
+    color: black;
+    /* width: 100%; */
+}
 .charlotteFamily-img{
     background: url('../shelters/charlotteFamily.png') no-repeat;
     height: 200px;
     float: left;
-    width: 25%;
+    width: 21%;
+    margin-left: 65px;
 }
 
 .charlotteFamily-content{
     height: 100%;
     overflow: hidden;
-    padding: 50px;
+    padding: 35px;
 }
 
 .mensShelter{
@@ -24,7 +29,7 @@
     background:  url('../shelters/mensShelter.jpg') no-repeat center;
     height: 200px;
     float: left;
-    width: 25%;
+    width: 28.5%;
 }
 .mensShelter p{
     align-items: center;
@@ -35,6 +40,10 @@
     overflow: hidden;
     padding-bottom: 50px;
     margin-top: 20px;
+}
+
+.urbanMinistry-content a{
+    color: black;
 }
 
 .urbanMinistry-img{
