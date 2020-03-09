@@ -62,6 +62,7 @@
     height: 100%;
     overflow: hidden;
     margin: 40px;
+    padding-bottom: 50px;
 }
 
 .partners-job{
@@ -69,11 +70,12 @@
 }
 
 .amazonWarehouse-img{
-    background: url('../shelters/amazonWarehouse.jpg') no-repeat;
+    background: url('../img/amazonWarehouse.jpg') no-repeat center/contain;
     height: 200px;
     float: left;
     width: 21%;
     margin-left: 65px;
+
 }
 
 .amazonWarehouse-content{
