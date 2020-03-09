@@ -40,11 +40,10 @@
     background: #333;
     color: #fff;
 }
-
-/* .bg-primary {
+.bg-dark2{
     background: #fff;
     color: #333;
-} */
+}
 
 .clr {
     clear: both;
@@ -134,6 +133,10 @@ a {
 #home-info {
     height: 400px;
 }
+#home-info2 {
+    height: 400px;
+
+}
 #features{
     display: flex;
 }
@@ -148,6 +151,10 @@ a {
     font-size: 25px;
     color: #fff;
     float: right;
+}
+.text2 {
+    color: #333;
+    font-size: x-large;
 }
 
 .text2 {
