@@ -93,6 +93,10 @@
     padding-bottom: 150px;
 }
 
+.amazonWarehouse-content a{
+    color: black;
+}
+
 .callCenter-img{
     background: url('../img/concentrix.jpeg') no-repeat center/contain;
     height: 200px;
