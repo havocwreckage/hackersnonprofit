@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/Apply.css">
     <link rel="stylesheet" type="text/css" href="css/k.css">
+    <link rel="stylesheet" type="text/css" href="css/Apply.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
@@ -32,46 +32,56 @@
         <div class="container">
             <h1 class="l-heading"><span class="text-primary">Apply</span></h1>
             <p>Please fill out the form</p>
-            <form action="destination.php">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name">
-                </div>
-                <form action="destination.php">
+            <div class="destinationphp">
+                <form class="border" action="destination.php">
                     <div class="form-group">
-
-                        <label for="Adrdess">Address:</label>
-                        <select>
-                            <option value="address1">Charlotte Family Housing</option>
-                            <option value="address2">Men's Shelter</option>
-                            <option value="address3">Urban Ministy Center</option>
-                        </select>
-                    </div>
-                </form>
-                <form action="destination.php">
-                    <div class="form-group">
-                        <label for="emial">Job Interests:</label>
-                        <input type="text" name="email" id="email">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
                     </div>
                     <form action="destination.php">
                         <div class="form-group">
-                            <label for="message">Past Experience(s):</label>
-                            <textarea name="message" id="message"></textarea>
+
+                            <label for="Adrdess">Address:</label>
+                            <select>
+                                <option value="address1">Charlotte Family Housing</option>
+                                <option value="address2">Men's Shelter</option>
+                                <option value="address3">Urban Ministy Center</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn">Submit</button>
                     </form>
+                    <form action="destination.php">
+                        <div class="form-group">
+                            <label for="emial">Job Interests:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <form action="destination.php">
+                            <div class="form-group">
+                                <label for="message">Past Experience(s):</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+                        </form>
+            </div>
         </div>
+
     </section>
+    <div class="applybtn">
+        <button type="submit" class="btn">Submit</button>
+
+    </div>
 
     </form>
-    </main>
+
     <footer>
-        <a href="https://twitter.com/cityofseattle?lang=en" target="_blank" rel="noopener"><img class="logos" src="https://image.flaticon.com/icons/svg/1384/1384049.svg" alt="logo_of_twitter"></a>
-        <a href="https://www.facebook.com/cityofseattlegov/" target="_blank" rel="noopener"><img class="logos" src="https://image.flaticon.com/icons/svg/254/254390.svg" alt="logo_of_facebook"></a>
-        <a href="https://www.instagram.com/seattle.city/?hl=en" target="_blank" rel="noopener"><img class="logos" src="https://image.flaticon.com/icons/svg/254/254393.svg" alt="logo_of_instagram"></a>
-        <a href="#"><img class="arrow" src="https://image.flaticon.com/icons/svg/2489/2489223.svg" alt="arrow_pointing_up" rel="noopener"></a>
+        <a href="https://twitter.com/cityofseattle?lang=en" target="_blank" rel="noopener"><img class="logos"
+                src="https://image.flaticon.com/icons/svg/1384/1384049.svg" alt="logo_of_twitter"></a>
+        <a href="https://www.facebook.com/cityofseattlegov/" target="_blank" rel="noopener"><img class="logos"
+                src="https://image.flaticon.com/icons/svg/254/254390.svg" alt="logo_of_facebook"></a>
+        <a href="https://www.instagram.com/seattle.city/?hl=en" target="_blank" rel="noopener"><img class="logos"
+                src="https://image.flaticon.com/icons/svg/254/254393.svg" alt="logo_of_instagram"></a>
+        <a href="#"><img class="arrow" src="https://image.flaticon.com/icons/svg/2489/2489223.svg"
+                alt="arrow_pointing_up" rel="noopener"></a>
         <p class="copyright">&copy; 2020 My2ndChance</p>
-  </footer>
+    </footer>
 </body>
 
 </html>
