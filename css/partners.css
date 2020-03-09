@@ -29,6 +29,10 @@
     padding-top: 35px;
 }
 
+.alter{
+    background-color: #333;
+    color: #fff;
+}
 .mensShelter-img{
     background:  url('../shelters/mensShelter.jpg') no-repeat center;
     height: 200px;
@@ -69,6 +73,10 @@
     padding-top: 100px;
 }
 
+.jobs-content{
+    padding-bottom: 10px;
+}
+
 .amazonWarehouse-img{
     background: url('../img/amazonWarehouse.jpg') no-repeat center/contain;
     height: 200px;
@@ -82,8 +90,25 @@
     height: 100%;
     overflow: hidden;
     padding: 35px;
+    padding-bottom: 150px;
 }
 
+.callCenter-img{
+    background: url('../img/concentrix.jpeg') no-repeat center/contain;
+    height: 200px;
+    float: left;
+    width: 21%;
+    margin-top: 20px;
+    margin-left: 65px;
+    padding-bottom: 20px;
+}
+
+.callCenter-content{
+    height: 100%;
+    overflow: hidden;
+    padding: 35px;
+    padding-bottom: 150px;
+}
 .clr {
     clear: both;
 }
