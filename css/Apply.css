@@ -1,5 +1,15 @@
-
+.py-3{
+    padding: 10px;
+}
+.l-heading{
+padding-bottom:10px;
+}
 /* forms */
+.destinationphp{
+border:5px solid;
+margin: 20px auto;
+padding:40px;
+}
 #contact-form .form-group{
     margin-bottom: 20px;
 }
@@ -23,8 +33,46 @@
 #contact-form input:focus,
 #contact-form textarea:focus{
     outline: none;
-    border-color: pink;
+    border-color: rgb(0, 153, 255) ;
 }
 select{
     font-size: large;
 }
+
+
+.btn {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px;
+    /* width: 100%; */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 16px;
+    
+  }
+
+
+.btn:hover {
+    background: rgb(0, 153, 255);
+    color: #333;
+    border-radius: 1.3em;
+}
+footer {
+    text-align:center;
+    background-color: rgb(0, 156, 199);
+    height:150px; 
+    padding: 10px;
+  }
+  
+  .logos {
+    height: 50px;
+  }
+  
+  .arrow {
+    height: 50px;
+    display: block; /* to separate it from an auto inline, and makes it go down to next line*/
+    margin: 0 auto; /* centers image */
+  }
+  .copyright {
+    color: #fff;
+    font-size: 20px;

@@ -162,7 +162,10 @@ a {
 /* features  */
 
 
-
+.applybtn{
+    text-align-last: center;
+    padding: 20PX;
+}
 .apply-button {
     display: inline-block;
     font-size: 30px;
@@ -180,7 +183,12 @@ a {
     color: #333;
     border-radius: 1.2em;
 }
-
+.apply-button:active,
+.apply-button:focus
+{
+border: none;
+outline:none;
+}
 /* footer */
 
 footer {
