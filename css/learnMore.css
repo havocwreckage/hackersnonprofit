@@ -1,3 +1,14 @@
+*{
+  margin: 0 auto;
+}
+
+/* Css Reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 /* logo */
 .logo {
     display: block;
@@ -51,7 +62,6 @@ footer {
     background-color: rgb(0, 156, 199);
     height:150px; 
     padding: 10px;
-    margin: 10px;
   }
   
   .logos {
