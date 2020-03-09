@@ -1,0 +1,22 @@
+h1 {
+    padding-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    line-height: 2;
+    text-align: center;
+}
+
+.footer {
+    height: 190px;
+}
+
+.logos1 {
+    height: 60px;
+    padding-top: 10px;
+}
