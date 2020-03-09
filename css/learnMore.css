@@ -1,0 +1,79 @@
+*{
+  margin: 0 auto;
+}
+
+/* Css Reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* logo */
+.logo {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    margin: 30px;
+}
+#case {
+    background: url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80') no-repeat center center/cover;
+    height: 500px;
+
+}
+.title {
+    text-align: center;
+    padding-top: 30px;
+    margin: 30px;
+
+}
+/* content */
+#text{
+    color: black;
+    font-size: 20px;
+    text-indent: 2.0em;
+    padding: 20px;
+    margin: 20px;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* image Grid */
+
+#img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+} 
+/*footer*/
+footer {
+    text-align:center;
+    background-color: rgb(0, 156, 199);
+    height:150px; 
+    padding: 10px;
+  }
+  
+  .logos {
+    height: 50px;
+  }
+  
+  .arrow {
+    height: 50px;
+    display: block; /* to separate it from an auto inline, and makes it go down to next line*/
+    margin: 0 auto; /* centers image */
+  }
+  .copyright {
+    color: #fff;
+    font-size: 20px;
+  }
